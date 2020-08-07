@@ -1,0 +1,119 @@
+h1,
+h2,
+h3,
+h4 {
+  text-transform: none !important;
+}
+
+body {
+  background-color: aliceblue !important;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(51, 51, 51) !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+h1 {
+  font-size: 7rem !important;
+  text-align: center;
+}
+
+h2 {
+  font-size: 5rem !important;
+  line-height: 8rem;
+}
+
+h3 {
+  font-size: 3rem !important;
+  line-height: 6rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 2rem !important;
+  line-height: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.5rem !important;
+}
+
+li {
+  font-size: 1.5rem !important;
+  line-height: 2.5rem !important;
+}
+
+.reveal .slides {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.css,
+.hljs {
+  font-size: 1.5rem !important;
+  line-height: 1.8rem;
+  border-radius: 5px;
+}
+
+.code-full-screen {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  font-size: 1.5rem !important;
+  line-height: 1.8rem;
+  z-index: 9999;
+  transition-duration: 1s;
+}
+
+blockquote {
+  width: 100% !important;
+  font-style: normal !important;
+  border: 2px dotted rgba(255, 255, 255, 0.1);
+}
+
+blockquote p {
+  font-size: 1.2rem !important;
+  line-height: 2rem !important;
+  margin: auto 0 !important;
+  vertical-align: text-top;
+}
+
+td img {
+  background-color: white;
+  padding: 5px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+table {
+  margin-left: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+th {
+  font-size: 20px;
+  color: white;
+  background: rgb(62, 62, 63);
+  font-weight: normal !important;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+td {
+  font-size: 1.5rem !important;
+}
+
+.hljs-ln .hljs-ln-code {
+  width: 100% !important;
+}

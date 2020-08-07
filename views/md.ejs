@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title><%=file%></title>
+
+  <link rel="stylesheet" href="/reveal/css/reset.css">
+  <link rel="stylesheet" href="/reveal/css/reveal.css">
+  <link rel="stylesheet" href="/reveal/css/theme/white.css" id="theme">
+
+  <!-- <link rel="stylesheet" href="/reveal/plugin/highlight/styles/agate.css" id="highlight-theme"> -->
+  <link rel="stylesheet" href="/reveal/plugin/highlight/styles/vs.css" id="highlight-theme">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="/md/<%=sub%>/<%=file%>" data-separator="^---" data-separator-vertical="^==="
+        data-separator-notes="^Note:">
+      </section>
+    </div>
+  </div>
+
+  <script src="/reveal/css/reveal.js"></script>
+  <script src="/reveal/plugin/notes/notes.js"></script>
+  <script src="/reveal/plugin/markdown/markdown.js"></script>
+  <script src="/reveal/plugin/highlight/highlight.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+</body>
+
+</html>
